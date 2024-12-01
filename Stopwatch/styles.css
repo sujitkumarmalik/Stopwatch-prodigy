@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('watch.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1{
+  background-color: #0062ff;
+  border-radius: 5% ;
+  border: 3px solid rgba(225, 115, 12, 0.918);
+}
+
+.stopwatch-container {
+  text-align: center;
+  background: rgb(173, 178, 179);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.time-display {
+  font-size: 2em;
+  margin-bottom: 20px;
+  background-color: #ff00d442;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #007BFF;
+  color: white;
+}
+
+#laps {
+  list-style: none;
+  padding: 0;
+}
+
+#laps li {
+  margin: 5px 0;
+  padding: 5px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
